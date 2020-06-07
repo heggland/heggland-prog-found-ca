@@ -18,9 +18,10 @@ Hint:
 You can use the modulus % operator for this.
 */
 
-
 for (var count = 15; count <= 25; count++) {
-    console.log(count + count % 2);
+    if (count % 2 === 0) {
+    console.log(count);
+    }
 }
 
 /* Question 2
